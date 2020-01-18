@@ -1,4 +1,4 @@
-# mobilephone-brands-and-models
+# Mobile Phone Manufacturers And Models Database
 Two database tables whiches includes mobilephone manufacturers and their models.
 
 **brands.sql** (128 manufacturer) -> Includes brands
