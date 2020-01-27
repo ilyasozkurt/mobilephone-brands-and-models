@@ -6,3 +6,5 @@ Two database tables whiches includes mobilephone manufacturers and their models.
 **models.sql** (9929 model) -> Models related with brand_id
 
 Data mined at **18/01/2020** from gsmarena.com
+
+Sponsored by [6harf.com](https://6harf.com "Turkey based creative design & development agency")
