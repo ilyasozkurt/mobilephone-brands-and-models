@@ -13,11 +13,23 @@ class CreateModelsTable extends Migration
      */
     public function up()
     {
-        Schema::create('models', function (Blueprint $table) {
+        Schema::create('devices', function (Blueprint $table) {
             $table->id();
             $table->integer('brand_id')->index('brand_id');
             $table->string('name')->index('name');
-            $table->string('picture');
+            $table->string('picture')->nullable();
+            $table->string('released_at')->nullable();
+            $table->string('body')->nullable();
+            $table->string('os')->nullable();
+            $table->string('storage')->nullable();
+            $table->string('display_size')->nullable();
+            $table->string('display_resolution')->nullable();
+            $table->string('camera_pixels')->nullable();
+            $table->string('video_pixels')->nullable();
+            $table->string('ram')->nullable();
+            $table->string('chipset')->nullable();
+            $table->string('battery_size')->nullable();
+            $table->string('battery_type')->nullable();
             $table->text('specifications');
             $table->softDeletes();
             $table->timestamps();
@@ -31,6 +43,6 @@ class CreateModelsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('models');
+        Schema::dropIfExists('devices');
     }
 }
