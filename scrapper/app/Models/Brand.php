@@ -17,6 +17,13 @@ class Brand extends Model
     protected $table = 'brands';
 
     /**
+     * @var string[]
+     */
+    protected $fillable = [
+        'name'
+    ];
+
+    /**
      * Returns devices of brand.
      *
      * @return HasMany
