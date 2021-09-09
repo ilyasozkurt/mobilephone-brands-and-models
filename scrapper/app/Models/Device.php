@@ -17,6 +17,36 @@ class Device extends Model
     protected $table = 'devices';
 
     /**
+     * @var string[]
+     */
+    protected $fillable = [
+        'url_hash',
+        'brand_id',
+        'name',
+        'picture',
+        'released_at',
+        'body',
+        'os',
+        'storage',
+        'display_size',
+        'display_resolution',
+        'camera_pixels',
+        'video_pixels',
+        'ram',
+        'chipset',
+        'battery_size',
+        'battery_type',
+        'specifications',
+    ];
+
+    /**
+     * @var string[]
+     */
+    protected $casts = [
+        'specifications' => 'array'
+    ];
+
+    /**
      * Returns devices of brand.
      *
      * @return BelongsTo
