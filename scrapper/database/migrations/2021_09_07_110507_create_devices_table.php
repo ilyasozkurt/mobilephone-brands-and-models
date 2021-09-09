@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateModelsTable extends Migration
+class CreateDevicesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -15,6 +15,7 @@ class CreateModelsTable extends Migration
     {
         Schema::create('devices', function (Blueprint $table) {
             $table->id();
+            $table->string('url_hash')->index('url_hash');
             $table->integer('brand_id')->index('brand_id');
             $table->string('name')->index('name');
             $table->string('picture')->nullable();
