@@ -1,10 +1,10 @@
 # Mobile Phone Manufacturers And Models Database
 Two database tables whiches includes mobilephone manufacturers and their models.
 
-**brands.sql** (128 manufacturer) -> Includes brands
+**brands.sql** (116 manufacturer) -> Includes brands
 
-**models.sql** (9929 model) -> Models related with brand_id
+**models.sql** (10633 model) -> Models related with brand_id
 
-Data mined at **18/01/2020** from gsmarena.com
+Data mined at **10/09/2021** from gsmarena.com
 
-Sponsored by [6harf.com](https://6harf.com "Turkey based creative design & development agency")
+Sponsored by [ilyasozkurt.com](https://ilyasozkurt.com "PHP, Laravel Developer")
