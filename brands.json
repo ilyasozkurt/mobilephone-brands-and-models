@@ -1,0 +1,932 @@
+{
+    "RECORDS": [
+        {
+            "id": "1",
+            "name": "Nokia",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:33:57",
+            "updated_at": "7/9/2021 12:33:57"
+        },
+        {
+            "id": "2",
+            "name": "alcatel",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:34:38",
+            "updated_at": "7/9/2021 12:34:38"
+        },
+        {
+            "id": "3",
+            "name": "Benefon",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:35:17",
+            "updated_at": "7/9/2021 12:35:17"
+        },
+        {
+            "id": "4",
+            "name": "Samsung",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:35:31",
+            "updated_at": "7/9/2021 12:35:31"
+        },
+        {
+            "id": "5",
+            "name": "Mitsubishi",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:35:53",
+            "updated_at": "7/9/2021 12:35:53"
+        },
+        {
+            "id": "6",
+            "name": "Motorola",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:36:16",
+            "updated_at": "7/9/2021 12:36:16"
+        },
+        {
+            "id": "7",
+            "name": "Siemens",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:37:02",
+            "updated_at": "7/9/2021 12:37:02"
+        },
+        {
+            "id": "8",
+            "name": "Ericsson",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:37:30",
+            "updated_at": "7/9/2021 12:37:30"
+        },
+        {
+            "id": "9",
+            "name": "Panasonic",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:38:32",
+            "updated_at": "7/9/2021 12:38:32"
+        },
+        {
+            "id": "10",
+            "name": "Sony",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:38:47",
+            "updated_at": "7/9/2021 12:38:47"
+        },
+        {
+            "id": "11",
+            "name": "Bosch",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:39:03",
+            "updated_at": "7/9/2021 12:39:03"
+        },
+        {
+            "id": "12",
+            "name": "Philips",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:39:25",
+            "updated_at": "7/9/2021 12:39:25"
+        },
+        {
+            "id": "13",
+            "name": "NEC",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:39:52",
+            "updated_at": "7/9/2021 12:39:52"
+        },
+        {
+            "id": "14",
+            "name": "Sagem",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:40:02",
+            "updated_at": "7/9/2021 12:40:02"
+        },
+        {
+            "id": "15",
+            "name": "Maxon",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:40:28",
+            "updated_at": "7/9/2021 12:40:28"
+        },
+        {
+            "id": "16",
+            "name": "Kyocera",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:41:04",
+            "updated_at": "7/9/2021 12:41:04"
+        },
+        {
+            "id": "17",
+            "name": "Telit",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:41:07",
+            "updated_at": "7/9/2021 12:41:07"
+        },
+        {
+            "id": "18",
+            "name": "Sendo",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:42:27",
+            "updated_at": "7/9/2021 12:42:27"
+        },
+        {
+            "id": "19",
+            "name": "LG",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:49:00",
+            "updated_at": "7/9/2021 12:49:00"
+        },
+        {
+            "id": "20",
+            "name": "Tel.Me.",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:49:07",
+            "updated_at": "7/9/2021 12:49:07"
+        },
+        {
+            "id": "21",
+            "name": "Neonode",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "7/9/2021 12:49:19",
+            "updated_at": "7/9/2021 12:49:19"
+        },
+        {
+            "id": "22",
+            "name": "Sharp",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:24:58",
+            "updated_at": "8/9/2021 06:24:58"
+        },
+        {
+            "id": "23",
+            "name": "Chea",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:26:22",
+            "updated_at": "8/9/2021 06:26:22"
+        },
+        {
+            "id": "24",
+            "name": "Mitac",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:34:34",
+            "updated_at": "8/9/2021 06:34:34"
+        },
+        {
+            "id": "25",
+            "name": "Sewon",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:35:16",
+            "updated_at": "8/9/2021 06:35:16"
+        },
+        {
+            "id": "26",
+            "name": "Palm",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:35:39",
+            "updated_at": "8/9/2021 06:35:39"
+        },
+        {
+            "id": "27",
+            "name": "Amoi",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:36:08",
+            "updated_at": "8/9/2021 06:36:08"
+        },
+        {
+            "id": "28",
+            "name": "Innostream",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:37:15",
+            "updated_at": "8/9/2021 06:37:15"
+        },
+        {
+            "id": "29",
+            "name": "O2",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:38:36",
+            "updated_at": "8/9/2021 06:38:36"
+        },
+        {
+            "id": "30",
+            "name": "BenQ",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:40:45",
+            "updated_at": "8/9/2021 06:40:45"
+        },
+        {
+            "id": "31",
+            "name": "Pantech",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:41:20",
+            "updated_at": "8/9/2021 06:41:20"
+        },
+        {
+            "id": "32",
+            "name": "Haier",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:44:08",
+            "updated_at": "8/9/2021 06:44:08"
+        },
+        {
+            "id": "33",
+            "name": "Bird",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:48:37",
+            "updated_at": "8/9/2021 06:48:37"
+        },
+        {
+            "id": "34",
+            "name": "i-mate",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:48:56",
+            "updated_at": "8/9/2021 06:48:56"
+        },
+        {
+            "id": "35",
+            "name": "BlackBerry",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:50:51",
+            "updated_at": "8/9/2021 06:50:51"
+        },
+        {
+            "id": "36",
+            "name": "VK",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:51:35",
+            "updated_at": "8/9/2021 06:51:35"
+        },
+        {
+            "id": "37",
+            "name": "Qtek",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:57:25",
+            "updated_at": "8/9/2021 06:57:25"
+        },
+        {
+            "id": "38",
+            "name": "Vertu",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 06:59:49",
+            "updated_at": "8/9/2021 06:59:49"
+        },
+        {
+            "id": "39",
+            "name": "Eten",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:00:01",
+            "updated_at": "8/9/2021 07:00:01"
+        },
+        {
+            "id": "40",
+            "name": "HP",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:03:27",
+            "updated_at": "8/9/2021 07:03:27"
+        },
+        {
+            "id": "41",
+            "name": "BenQ-Siemens",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:07:56",
+            "updated_at": "8/9/2021 07:07:56"
+        },
+        {
+            "id": "42",
+            "name": "XCute",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:10:54",
+            "updated_at": "8/9/2021 07:10:54"
+        },
+        {
+            "id": "43",
+            "name": "Toshiba",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:12:58",
+            "updated_at": "8/9/2021 07:12:58"
+        },
+        {
+            "id": "44",
+            "name": "HTC",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:18:40",
+            "updated_at": "8/9/2021 07:18:40"
+        },
+        {
+            "id": "45",
+            "name": "Asus",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:21:42",
+            "updated_at": "8/9/2021 07:21:42"
+        },
+        {
+            "id": "46",
+            "name": "Gigabyte",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:22:27",
+            "updated_at": "8/9/2021 07:22:27"
+        },
+        {
+            "id": "47",
+            "name": "Apple",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:25:59",
+            "updated_at": "8/9/2021 07:25:59"
+        },
+        {
+            "id": "48",
+            "name": "Thuraya",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:30:31",
+            "updated_at": "8/9/2021 07:30:31"
+        },
+        {
+            "id": "49",
+            "name": "Fujitsu",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:31:45",
+            "updated_at": "8/9/2021 07:31:45"
+        },
+        {
+            "id": "50",
+            "name": "WND",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:46:19",
+            "updated_at": "8/9/2021 07:46:19"
+        },
+        {
+            "id": "51",
+            "name": "T-Mobile",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 07:47:55",
+            "updated_at": "8/9/2021 07:47:55"
+        },
+        {
+            "id": "52",
+            "name": "i-mobile",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:05:42",
+            "updated_at": "8/9/2021 13:05:42"
+        },
+        {
+            "id": "53",
+            "name": "Vodafone",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:07:35",
+            "updated_at": "8/9/2021 13:07:35"
+        },
+        {
+            "id": "54",
+            "name": "Sonim",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:08:27",
+            "updated_at": "8/9/2021 13:08:27"
+        },
+        {
+            "id": "55",
+            "name": "MWg",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:11:25",
+            "updated_at": "8/9/2021 13:11:25"
+        },
+        {
+            "id": "56",
+            "name": "AT&T",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:12:47",
+            "updated_at": "8/9/2021 13:12:47"
+        },
+        {
+            "id": "57",
+            "name": "Huawei",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:13:41",
+            "updated_at": "8/9/2021 13:13:41"
+        },
+        {
+            "id": "58",
+            "name": "Acer",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:16:57",
+            "updated_at": "8/9/2021 13:16:57"
+        },
+        {
+            "id": "59",
+            "name": "Garmin-Asus",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:17:11",
+            "updated_at": "8/9/2021 13:17:11"
+        },
+        {
+            "id": "60",
+            "name": "iNQ",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:41:43",
+            "updated_at": "8/9/2021 13:41:43"
+        },
+        {
+            "id": "61",
+            "name": "Dell",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:42:05",
+            "updated_at": "8/9/2021 13:42:05"
+        },
+        {
+            "id": "62",
+            "name": "ZTE",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:45:14",
+            "updated_at": "8/9/2021 13:45:14"
+        },
+        {
+            "id": "63",
+            "name": "Modu",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:49:47",
+            "updated_at": "8/9/2021 13:49:47"
+        },
+        {
+            "id": "64",
+            "name": "Microsoft",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:50:35",
+            "updated_at": "8/9/2021 13:50:35"
+        },
+        {
+            "id": "65",
+            "name": "Micromax",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 13:51:55",
+            "updated_at": "8/9/2021 13:51:55"
+        },
+        {
+            "id": "66",
+            "name": "BLU",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 14:00:12",
+            "updated_at": "8/9/2021 14:00:12"
+        },
+        {
+            "id": "67",
+            "name": "Spice",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "8/9/2021 14:03:10",
+            "updated_at": "8/9/2021 14:03:10"
+        },
+        {
+            "id": "68",
+            "name": "Icemobile",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 06:25:43",
+            "updated_at": "9/9/2021 06:25:43"
+        },
+        {
+            "id": "69",
+            "name": "verykool",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 06:27:02",
+            "updated_at": "9/9/2021 06:27:02"
+        },
+        {
+            "id": "70",
+            "name": "Orange",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 12:52:44",
+            "updated_at": "9/9/2021 12:52:44"
+        },
+        {
+            "id": "71",
+            "name": "Plum",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 12:56:11",
+            "updated_at": "9/9/2021 12:56:11"
+        },
+        {
+            "id": "72",
+            "name": "Honor",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 12:58:13",
+            "updated_at": "9/9/2021 12:58:13"
+        },
+        {
+            "id": "73",
+            "name": "Meizu",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 13:42:32",
+            "updated_at": "9/9/2021 13:42:32"
+        },
+        {
+            "id": "74",
+            "name": "Lenovo",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 13:44:41",
+            "updated_at": "9/9/2021 13:44:41"
+        },
+        {
+            "id": "75",
+            "name": "Celkon",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 13:46:47",
+            "updated_at": "9/9/2021 13:46:47"
+        },
+        {
+            "id": "76",
+            "name": "Amazon",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 13:48:53",
+            "updated_at": "9/9/2021 13:48:53"
+        },
+        {
+            "id": "77",
+            "name": "Casio",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 13:50:04",
+            "updated_at": "9/9/2021 13:50:04"
+        },
+        {
+            "id": "78",
+            "name": "NIU",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 13:55:40",
+            "updated_at": "9/9/2021 13:55:40"
+        },
+        {
+            "id": "79",
+            "name": "Yezz",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 13:56:16",
+            "updated_at": "9/9/2021 13:56:16"
+        },
+        {
+            "id": "80",
+            "name": "Xiaomi",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 14:07:42",
+            "updated_at": "9/9/2021 14:07:42"
+        },
+        {
+            "id": "81",
+            "name": "Parla",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 14:11:51",
+            "updated_at": "9/9/2021 14:11:51"
+        },
+        {
+            "id": "82",
+            "name": "Oppo",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 14:18:40",
+            "updated_at": "9/9/2021 14:18:40"
+        },
+        {
+            "id": "83",
+            "name": "Karbonn",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 14:19:21",
+            "updated_at": "9/9/2021 14:19:21"
+        },
+        {
+            "id": "84",
+            "name": "Jolla",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 14:31:51",
+            "updated_at": "9/9/2021 14:31:51"
+        },
+        {
+            "id": "85",
+            "name": "XOLO",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 14:35:05",
+            "updated_at": "9/9/2021 14:35:05"
+        },
+        {
+            "id": "86",
+            "name": "Prestigio",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 14:36:33",
+            "updated_at": "9/9/2021 14:36:33"
+        },
+        {
+            "id": "87",
+            "name": "Maxwest",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 16:45:31",
+            "updated_at": "9/9/2021 16:45:31"
+        },
+        {
+            "id": "88",
+            "name": "Cat",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 21:45:59",
+            "updated_at": "9/9/2021 21:45:59"
+        },
+        {
+            "id": "89",
+            "name": "Allview",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 21:46:29",
+            "updated_at": "9/9/2021 21:46:29"
+        },
+        {
+            "id": "90",
+            "name": "Unnecto",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 21:46:40",
+            "updated_at": "9/9/2021 21:46:40"
+        },
+        {
+            "id": "91",
+            "name": "Archos",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 21:48:50",
+            "updated_at": "9/9/2021 21:48:50"
+        },
+        {
+            "id": "92",
+            "name": "Gionee",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 21:50:01",
+            "updated_at": "9/9/2021 21:50:01"
+        },
+        {
+            "id": "93",
+            "name": "Emporia",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 21:55:52",
+            "updated_at": "9/9/2021 21:55:52"
+        },
+        {
+            "id": "94",
+            "name": "Lava",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 21:57:09",
+            "updated_at": "9/9/2021 21:57:09"
+        },
+        {
+            "id": "95",
+            "name": "OnePlus",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 22:00:03",
+            "updated_at": "9/9/2021 22:00:03"
+        },
+        {
+            "id": "96",
+            "name": "Wiko",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 22:05:45",
+            "updated_at": "9/9/2021 22:05:45"
+        },
+        {
+            "id": "97",
+            "name": "Nvidia",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 22:11:23",
+            "updated_at": "9/9/2021 22:11:23"
+        },
+        {
+            "id": "98",
+            "name": "vivo",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 22:19:51",
+            "updated_at": "9/9/2021 22:19:51"
+        },
+        {
+            "id": "99",
+            "name": "Yota",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 22:27:06",
+            "updated_at": "9/9/2021 22:27:06"
+        },
+        {
+            "id": "100",
+            "name": "YU",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 22:28:14",
+            "updated_at": "9/9/2021 22:28:14"
+        },
+        {
+            "id": "101",
+            "name": "Posh",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 22:36:12",
+            "updated_at": "9/9/2021 22:36:12"
+        },
+        {
+            "id": "102",
+            "name": "Intex",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 22:41:57",
+            "updated_at": "9/9/2021 22:41:57"
+        },
+        {
+            "id": "103",
+            "name": "QMobile",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 22:42:36",
+            "updated_at": "9/9/2021 22:42:36"
+        },
+        {
+            "id": "104",
+            "name": "Coolpad",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 22:52:29",
+            "updated_at": "9/9/2021 22:52:29"
+        },
+        {
+            "id": "105",
+            "name": "Energizer",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 22:59:31",
+            "updated_at": "9/9/2021 22:59:31"
+        },
+        {
+            "id": "106",
+            "name": "Google",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 23:04:55",
+            "updated_at": "9/9/2021 23:04:55"
+        },
+        {
+            "id": "107",
+            "name": "BQ",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 23:05:21",
+            "updated_at": "9/9/2021 23:05:21"
+        },
+        {
+            "id": "108",
+            "name": "LeEco",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 23:14:44",
+            "updated_at": "9/9/2021 23:14:44"
+        },
+        {
+            "id": "109",
+            "name": "Razer",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 23:52:40",
+            "updated_at": "9/9/2021 23:52:40"
+        },
+        {
+            "id": "110",
+            "name": "Blackview",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "9/9/2021 23:57:37",
+            "updated_at": "9/9/2021 23:57:37"
+        },
+        {
+            "id": "111",
+            "name": "Ulefone",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "10/9/2021 00:00:19",
+            "updated_at": "10/9/2021 00:00:19"
+        },
+        {
+            "id": "112",
+            "name": "Realme",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "10/9/2021 00:04:37",
+            "updated_at": "10/9/2021 00:04:37"
+        },
+        {
+            "id": "113",
+            "name": "Infinix",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "10/9/2021 00:14:16",
+            "updated_at": "10/9/2021 00:14:16"
+        },
+        {
+            "id": "114",
+            "name": "Tecno",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "10/9/2021 00:15:14",
+            "updated_at": "10/9/2021 00:15:14"
+        },
+        {
+            "id": "115",
+            "name": "TCL",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "10/9/2021 00:33:05",
+            "updated_at": "10/9/2021 00:33:05"
+        },
+        {
+            "id": "116",
+            "name": "Fairphone",
+            "logo": "",
+            "deleted_at": "",
+            "created_at": "10/9/2021 00:42:41",
+            "updated_at": "10/9/2021 00:42:41"
+        }
+    ]
+}
