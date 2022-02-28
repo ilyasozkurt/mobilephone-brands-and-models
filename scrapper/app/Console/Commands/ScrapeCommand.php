@@ -93,12 +93,17 @@ class ScrapeCommand extends Command
                             $specificationsDom = $parser->find('#specs-list table tr');
 
                             $specifications = [];
+                            $lastGroup = null;
 
                             foreach ($specificationsDom as $row) {
+                                $rowGroup = $row->find('th')[0]->plaintext ?? null;
+                                if (!empty($rowGroup)){
+                                    $lastGroup = $rowGroup;
+                                }
                                 $ttl = $row->find('.ttl')[0]->plaintext ?? null;
                                 $info = $row->find('.nfo')[0]->plaintext ?? null;
                                 if ($ttl) {
-                                    $specifications[$ttl] = $info;
+                                    $specifications[$lastGroup][$ttl] = $info;
                                 }
                             }
 
