@@ -94,23 +94,34 @@ class ScrapeCommand extends Command
 
                             $specifications = [];
                             $lastGroup = null;
+                            $lastSpec = null;
 
                             foreach ($specificationsDom as $row) {
-                                $rowGroup = $row->find('th')[0]->plaintext ?? null;
+
+                                $rowGroup = $this->clearText($row->find('th')[0]->plaintext ?? null);
                                 if (!empty($rowGroup)){
                                     $lastGroup = $rowGroup;
                                 }
-                                $ttl = $row->find('.ttl')[0]->plaintext ?? null;
-                                $info = $row->find('.nfo')[0]->plaintext ?? null;
-                                if ($ttl) {
-                                    $specifications[$lastGroup][$ttl] = $info;
+
+                                $theSpec = $this->clearText($row->find('.ttl')[0]->plaintext ?? null);
+
+                                if (!empty($theSpec)){
+                                    $lastSpec = $theSpec;
                                 }
+
+                                if ($lastSpec) {
+                                    $info = $this->clearText($row->find('.nfo')[0]->plaintext ?? null);
+                                    $specifications[$lastGroup][$lastSpec][] = $info;
+                                }
+
                             }
 
+                            $urlHash = hash('crc32', $url->loc);
+
                             $device = Device::firstOrCreate([
-                                'url_hash' => md5($url->loc)
+                                'url_hash' => $urlHash
                             ], [
-                                'url_hash' => md5($url->loc),
+                                'url_hash' => $urlHash,
                                 'brand_id' => $brand->id,
                                 'name' => $name,
                                 'picture' => $parser->find('.specs-photo-main img')[0]->src ?? null,
@@ -160,4 +171,17 @@ class ScrapeCommand extends Command
         return 0;
 
     }
+
+    /**
+     * @param ?string $text
+     * @return string
+     */
+    private function clearText(?string $text): string
+    {
+        $text = trim($text);
+        $text = str_replace('&nbsp;', '', $text);
+        return $text;
+    }
+
+
 }
