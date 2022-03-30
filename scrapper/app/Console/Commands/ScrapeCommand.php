@@ -41,16 +41,11 @@ class ScrapeCommand extends Command
     public function handle()
     {
 
+        include app_path('Helpers/simple_html_dom.php');
+
         $lastIndex = (int)file_get_contents('last_index.txt');
-        $lastHash = (string)file_get_contents('last_hash.txt');
 
         $sitemapSource = Http::get('https://www.gsmarena.com/sitemap-phones.xml');
-
-        if ($lastHash !== md5($sitemapSource->body())) {
-            $lastIndex = 0;
-            $lastHash = md5($sitemapSource->body());
-            file_put_contents('last_hash.txt', $lastHash);
-        }
 
         $xml = simplexml_load_string($sitemapSource->body());
 
