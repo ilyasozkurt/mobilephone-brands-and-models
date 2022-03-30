@@ -67,7 +67,11 @@ class ScrapeCommand extends Command
                 continue;
             }
 
-            if (!strpos($url->loc, 'related.php') && !strpos($url->loc, '-pictures-')) {
+            if (
+                !strpos($url->loc, 'related.php') &&
+                !strpos($url->loc, '-3d-spin-') &&
+                !strpos($url->loc, '-pictures-')
+            ) {
 
                 $device = Device::where('url_hash', md5($url->loc))
                     ->get();
@@ -99,13 +103,13 @@ class ScrapeCommand extends Command
                             foreach ($specificationsDom as $row) {
 
                                 $rowGroup = $this->clearText($row->find('th')[0]->plaintext ?? null);
-                                if (!empty($rowGroup)){
+                                if (!empty($rowGroup)) {
                                     $lastGroup = $rowGroup;
                                 }
 
                                 $theSpec = $this->clearText($row->find('.ttl')[0]->plaintext ?? null);
 
-                                if (!empty($theSpec)){
+                                if (!empty($theSpec)) {
                                     $lastSpec = $theSpec;
                                 }
 
