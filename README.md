@@ -7,4 +7,4 @@ Two database tables whiches includes mobilephone manufacturers and their models.
 
 Data mined at **10/09/2021** from gsmarena.com
 
-Sponsored by [ilyasozkurt.com](https://ilyasozkurt.com "PHP, Laravel Developer")
+Sponsored by [freestockphotos.site](https://freestockphotos.site "Free Stock Photos.site")
