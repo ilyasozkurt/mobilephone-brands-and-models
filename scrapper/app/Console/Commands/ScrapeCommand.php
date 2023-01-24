@@ -41,8 +41,6 @@ class ScrapeCommand extends Command
     public function handle()
     {
 
-        include app_path('Helpers/simple_html_dom.php');
-
         $lastIndex = (int)file_get_contents('last_index.txt');
 
         $sitemapSource = Http::get('https://www.gsmarena.com/sitemap-phones.xml');
@@ -106,11 +104,14 @@ class ScrapeCommand extends Command
 
                                 if (!empty($theSpec)) {
                                     $lastSpec = $theSpec;
+                                } else {
+                                    $lastSpec = 'Additional';
                                 }
 
                                 if ($lastSpec) {
                                     $info = $this->clearText($row->find('.nfo')[0]->plaintext ?? null);
-                                    $specifications[$lastGroup][$lastSpec][] = $info;
+                                    $specKey = $this->getAvailableIndex($lastSpec, $specifications[$lastGroup] ?? []);
+                                    $specifications[$lastGroup][$specKey] = $info;
                                 }
 
                             }
@@ -182,5 +183,19 @@ class ScrapeCommand extends Command
         return $text;
     }
 
+    /**
+     * @param string $arrayKey
+     * @param array $array
+     * @return string
+     */
+    private function getAvailableIndex(string $arrayKey, array $array): string
+    {
+        $availableIndex = 1;
+        while (array_key_exists($arrayKey, $array)) {
+            $arrayKey = $arrayKey . '_' . $availableIndex;
+            $availableIndex++;
+        }
+        return $arrayKey;
+    }
 
 }
