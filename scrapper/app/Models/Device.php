@@ -21,6 +21,7 @@ class Device extends Model
      */
     protected $fillable = [
         'url_hash',
+        'url',
         'brand_id',
         'name',
         'picture',
