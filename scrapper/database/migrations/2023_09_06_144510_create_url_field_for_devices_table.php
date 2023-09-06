@@ -14,7 +14,7 @@ class CreateUrlFieldForDevicesTable extends Migration
     public function up()
     {
         Schema::table('devices', function (Blueprint $table) {
-            $table->string("url")->after("url_hash")->nullable();
+            $table->text("url")->after("url_hash")->nullable();
         });
     }
 
