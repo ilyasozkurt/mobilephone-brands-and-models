@@ -56,4 +56,4 @@ _This command will create required tables in your database:_
 
 Data mined at **10/09/2021** from gsmarena.com
 
-Sponsored by [freestockphotos.site](https://freestockphotos.site "Free Stock Photos.site")
+Sponsored by [hometrust.app](https://hometrust.app "Property Reviews Platform")

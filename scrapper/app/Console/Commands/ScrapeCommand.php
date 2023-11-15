@@ -127,6 +127,7 @@ class ScrapeCommand extends Command
                                 'url_hash' => $urlHash
                             ], [
                                 'url_hash' => $urlHash,
+                                'url' => $url->loc,
                                 'brand_id' => $brand->id,
                                 'name' => $name,
                                 'picture' => $parser->find('.specs-photo-main img')[0]->src ?? null,
