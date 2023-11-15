@@ -6,6 +6,7 @@ use App\Models\Brand;
 use App\Models\Device;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Storage;
 
 class ScrapeCommand extends Command
 {
@@ -41,7 +42,11 @@ class ScrapeCommand extends Command
     public function handle()
     {
 
-        $lastIndex = (int)file_get_contents('last_index.txt');
+        if (!Storage::exists('last_index.txt')) {
+            Storage::put('last_index.txt', 0);
+        }
+
+        $lastIndex = (int)Storage::get('last_index.txt');
 
         $sitemapSource = Http::get('https://www.gsmarena.com/sitemap-phones.xml');
 
@@ -71,9 +76,9 @@ class ScrapeCommand extends Command
 
                 if (!$device->count()) {
 
-                    $httpSource = Http::get($url->loc);
+                    $httpSource = browseUrl($url->loc);
 
-                    $parser = str_get_html($httpSource->body());
+                    $parser = str_get_html($httpSource);
 
                     $name = $parser->find('[data-spec="modelname"]')[0]->plaintext ?? null;
 
@@ -152,13 +157,11 @@ class ScrapeCommand extends Command
 
                     }
 
-                    sleep(2);
-
                 }
 
             }
 
-            file_put_contents('last_index.txt', $index);
+            Storage::put('last_index.txt', $index);
 
             $progressbar->advance();
 

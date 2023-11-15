@@ -23,6 +23,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->app->terminating(function () {
+            destroyBrowser();
+        });
     }
 }
