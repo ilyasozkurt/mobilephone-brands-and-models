@@ -56,4 +56,4 @@ _This command will create required tables in your database:_
 
 Data mined at **10/09/2021** from gsmarena.com
 
-Sponsored by [hometrust.app](https://hometrust.app "Property Reviews Platform")
+Sponsored by [trustlocale.com](https://trustlocale.com "Neightborhood Reviews, Insights")
