@@ -56,4 +56,5 @@ _This command will create required tables in your database:_
 
 Data mined at **10/09/2021** from gsmarena.com
 
-Sponsored by [offday.app](https://trustlocale.com "Discover the best days off to maximize your holiday!")
+Sponsored by [offday.app](https://offday.app "Discover the best days off to maximize your holiday!")
+Sponsored by [uptimetick.com](https://uptimetick.com "Your alternate uptime monitor")
